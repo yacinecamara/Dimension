@@ -34,7 +34,7 @@ for( I=0; I<N; I++)
 {   printf("%d\t",T[I]);
   }
   printf("\n");
-return 0;     
+return N;     
 }
 int inverseTableau (int T[],int N)
 { 

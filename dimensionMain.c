@@ -5,6 +5,7 @@ int main()
     int Affiche;
     int occul;
     int N, I, J; /*tableau donné, dimension, indice courant*/
+    int U,V;
     char c;
     int Tab;
   printf("la dimension du tableau max (max.50) :\n");
@@ -25,9 +26,8 @@ int main()
 
             Affiche = afficheTableau(T, N);
             occul = occurance(T, N);
-            inverseTableau(T,N);
-            tabposTabneg (T,N);
-           
+            inverseTableau(T,occul);
+            tabposTabneg (T,occul);
 }else
 {
     printf("veiller saisir un nombre compris entre 1 et 50 \n");
